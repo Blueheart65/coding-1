@@ -26,3 +26,21 @@ Gymembershipgold = 10.99
 Grapesoda = 1.51
 applejuice =1.29
 Vodka = 10.48
+
+# variable naming conventions 
+# we use naming conventions because we cannot have spaces in variable names
+# camel case - when creating variable names with multiple words, every new words begins with a capital letter 
+# The reason why its called camel case is because every new word represents a hump
+
+UserNameForNewInstgregramAccount = 0 #with camel case 
+
+
+# Snake case - when creating a variable using snake case  we underscore to space out words 
+
+User_For_New_Instagram_Account = 0 # with snake case 
+
+
+# predicttive Ai software that analyzes data and makes probibalistic descsions.
+# Generative Ai - Software that creates content such as text, images audio and video based data 
+# Assistant Ai - Software designed to interper and interact with human language
+# Recommendation Ai
