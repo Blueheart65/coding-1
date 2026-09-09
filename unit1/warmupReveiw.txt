@@ -1,0 +1,9 @@
+# we learned about strings, integers, variables and booleans 
+
+# 2 A code respsitory is a space for storing code 
+
+# 3 A keyborad is an input device because it causes what appears on screen.
+
+# 4 A variable is something that stores data, which can be a respository, an online account or a barcode 
+
+# 5 variables CANNOT sarts with numbers or symbols, only letters 
