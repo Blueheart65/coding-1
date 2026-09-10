@@ -1,4 +1,4 @@
-# we learned about strings, integers, variables and booleans 
+# we learned about strings, integers, floats and booleans 
 
 # 2 A code respsitory is a space for storing code 
 
