@@ -8,7 +8,7 @@
 
 # str() - Thjis datacasting fuction allows you to change  any data type into a string 
 
- year = 1906 
+year = 1906 
 print ("this evnt took place in" + str(year)) 
 
 # string concatenation- combiningt stromg data types with one another. 
@@ -23,3 +23,5 @@ print ("good" + "bye")
 num1 + imput ("type in number:" ) 
 # input always returns a string 
 Print ( 4 + int(num1))
+
+

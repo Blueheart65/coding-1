@@ -31,7 +31,7 @@ print(300 != 300) # false these are the same
 print (3 > 1 and 100 > 50) # this would come out to be true 
 
 # OR- checks if only 1 condition id true. if yes, the final result will be true 
-Print (3 > 1 or 100 -- 50) 
+Print (3 > 1 or 100 - 50) 
 
 # NOT - the "oppisite day" operator. it will reverse the result of the logical operators.
 print(not(3 > 1 and 100 > 50))
