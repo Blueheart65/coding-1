@@ -12,6 +12,8 @@ print(int(num1) > 85)
  # the result should be 500
 
 num2 = input("type in a number:") 
+#imput always takes data as a string
+print(int(num2) + 360)
 
-print(360 + int(num2))
-
+val= input("") 
+print(val == "boys latin") 

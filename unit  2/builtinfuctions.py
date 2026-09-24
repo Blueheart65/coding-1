@@ -1,6 +1,6 @@
 #Fuction-simply put; a code block of intructions for computors to follow 
 
-#Built-in Function - a code block of intruction for a computor to follow that was already qritten for us.
+#Built-in Function - a code block of intruction for a computor to follow that was already pre witten for us.
 # Pre written code intructions
 
 #Data casting fuctions- change one data type into another
