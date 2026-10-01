@@ -17,3 +17,8 @@ print(int(num2) + 360)
 
 val= input("") 
 print(val == "boys latin") 
+
+car = input("days in shop") 
+print( int(car) * 15)
+
+print (not(85 > 89 and 40 > 42)

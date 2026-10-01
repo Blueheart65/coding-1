@@ -24,4 +24,3 @@ num1 + imput ("type in number:" )
 # input always returns a string 
 Print ( 4 + int(num1))
 
-
