@@ -23,7 +23,7 @@ def calculate_multiply():
     n1 = int(input())
     n2 = int(input())
     print(n1 * n2)
-    print ("ypur done leave...bye....why you still here i said bye!!!")
+    print ("your done leave...bye....why you still here i said bye!!!")
 calculate_multiply()
 
 def calculate_divide():
@@ -32,4 +32,4 @@ def calculate_divide():
     n2 = int(input())
     print (n1 / n2)
     print("alrightly bye now")
-calculate_divide()
+calculate_divide()              
