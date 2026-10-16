@@ -1,0 +1,5 @@
+# thee flappy bird mechanics arent that uniqe, you just press a button to make the bird flap up so it doesnt hit the pipe, and from what i know it goes on forever esstially
+# but the reason its so popuplar is due to the adreniline of it.
+#somehow just pressing a button a bumch of times is fun, maybe its like a charachter in a movie pressing the big red button they arent supposed. 
+# The bird is sometimes red or blue, falpping between green pipes on the top and of the screen, with a background of a grassy feild and blue sky, not much but its enjoyable
+#to look at, and frankly, its more so about making sure that number gets high, humans love a challange. 

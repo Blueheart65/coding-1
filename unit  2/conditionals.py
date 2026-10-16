@@ -49,7 +49,7 @@ def Calculate_subtract():
     num2 = int(input())
     print(num1 - num2)
     print("thank you...bye")
-# Calculate_subtract()
+ #Calculate_subtract()
 
 def Calculate_multiply():
     n1 = int(input())
@@ -57,7 +57,7 @@ def Calculate_multiply():
     print(n1 * n2)
     print ("your done leave...bye")
 
-Calculate_multiply()
+#Calculate_multiply()
 def Calculate_divide():
     n1 = int(input())
     n2 = int(input())
@@ -69,19 +69,19 @@ def Calculate_divide():
 Calculate = int(input("please select a caluculation"))
 if Calculate == 1:
   print("you have chosen addition, type the numbers you would like to add")
-  Calculate_add()
+  Calcluate_add()
 
 elif Calculate == 2:
   print("you have chosen subtraction, type in the numbers you would like to subtract")
-  Calcluate_subtract()
+  Calculate_subtract()
 
-elif Calculate_subtract== 3:
+elif Calculate == 3:
   print("you have chosen multiplication, type in the numbers you would like to multiply")
   Calculate_multiply()
 
-elif Caluclulate ==4:
-  print("you have chpsen divison, type in in the numbers you would lime to divid")
-  Calculate_divid()
+elif Calculate == 4:
+  print("you have chosen divison, type in in the numbers you would lime to divid")
+  Calculate_divide()
   
 else:
   print ("fuction not available")
