@@ -80,7 +80,7 @@ elif Calculate == 3:
   Calculate_multiply()
 
 elif Calculate == 4:
-  print("you have chosen divison, type in in the numbers you would lime to divid")
+  print("you have chosen divison, type in in the numbers you would like to divide")
   Calculate_divide()
   
 else:
