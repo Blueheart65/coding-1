@@ -63,25 +63,28 @@ def Calculate_divide():
     n2 = int(input())
     print (n1 / n2)
     print("alrightly bye now")
-
-# Calculate_divide()              
-
-Calculate = int(input("please select a caluculation"))
+    running = 'y'
+    While == "y"()
+      
+   Calculate = int(input("please select a caluculation"))
 if Calculate == 1:
   print("you have chosen addition, type the numbers you would like to add")
   Calcluate_add()
+  print("do you want to do another caluclation? Y/N ")
 
 elif Calculate == 2:
   print("you have chosen subtraction, type in the numbers you would like to subtract")
   Calculate_subtract()
+  print("do you want to do another caluclation? Y/N ")
 
 elif Calculate == 3:
   print("you have chosen multiplication, type in the numbers you would like to multiply")
   Calculate_multiply()
+  print("do you want to do another caluclation? Y/N ")
 
 elif Calculate == 4:
   print("you have chosen divison, type in in the numbers you would like to divide")
   Calculate_divide()
-  
+  print("do you want to do another caluclation? Y/N ")
 else:
   print ("fuction not available")
