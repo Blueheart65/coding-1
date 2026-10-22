@@ -63,10 +63,9 @@ def Calculate_divide():
     n2 = int(input())
     print (n1 / n2)
     print("alrightly bye now")
-    running = 'y'
-    While == "y"()
+    
       
-   Calculate = int(input("please select a caluculation"))
+Calculate = int(input("please select a caluculation"))
 if Calculate == 1:
   print("you have chosen addition, type the numbers you would like to add")
   Calcluate_add()
