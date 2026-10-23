@@ -47,16 +47,29 @@ def password ():
 
 #password()
 
-def Nachos():
-    print("here are your Nachos")
-    print("would you like another")
+# def Nachos():
+#     print("here are your Nachos")
+#     print("would you like another")
 
 
 
-def vendingMachine():
-    print("welcome to the vending machine")
-Snacks = (input("please select a snack"))
-if Snacks == B2:
-    print ("You have chosen nachos")
-    Nachos()
-vendingMachine()
+# def vendingMachine():
+#     print("welcome to the vending machine")
+# Snacks = (input("please select a snack"))
+# if Snacks == B2:
+#     print ("You have chosen nachos")
+#     Nachos()
+# #vendingMachine()
+
+
+import random
+selection = input("would you like to roll or quit r/q")
+r = 1
+q = 2
+if selection == 1:
+     print(random.randint(1, 7))
+elif selection == 2:
+    print("you have quit the game")
+else:
+    print("not defined")
+
