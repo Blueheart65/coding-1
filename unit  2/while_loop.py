@@ -62,14 +62,22 @@ def password ():
 # #vendingMachine()
 
 
-import random
-selection = input("would you like to roll or quit r/q")
-r = 1
-q = 2
-if selection == 1:
-     print(random.randint(1, 7))
-elif selection == 2:
-    print("you have quit the game")
-else:
-    print("not defined")
+# import random
+# selection = input("would you like to roll or quit r/q")
+# r = 1
+# q = 2
+# if selection == 1:
+#      print(random.randint(1, 7))
+# elif selection == 2:
+#     print("you have quit the game")
+# else:
+#     print("not defined")
 
+
+def play():
+    choice = 1
+    attempts = 3
+
+# # i dont have much becuase I had to run a bunch of test to test how this "randint" thing worked
+# and everytime i used it it kept say a word was not defined but i tried all period and im stil having trouble
+# but i just know you CANNOT do random words only random numbers, even if you assign the word to a number
