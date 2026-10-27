@@ -47,19 +47,19 @@ def password ():
 
 #password()
 
-# def Nachos():
-#     print("here are your Nachos")
-#     print("would you like another")
+def Nachos():
+    print("here are your Nachos")
+    print("would you like another")
 
 
 
-# def vendingMachine():
-#     print("welcome to the vending machine")
-# Snacks = (input("please select a snack"))
-# if Snacks == B2:
-#     print ("You have chosen nachos")
-#     Nachos()
-# #vendingMachine()
+vendingMachine = 
+    print("welcome to the vending machine")
+Snacks = (input("please select a snack"))
+if Snacks == B2:
+    print ("You have chosen nachos")
+    Nachos()
+#vendingMachine()
 
 
 # import random
@@ -74,9 +74,9 @@ def password ():
 #     print("not defined")
 
 
-def play():
-    choice = 1
-    attempts = 3
+# def play():
+#     choice = 1
+#     attempts = 3
 
 # # i dont have much becuase I had to run a bunch of test to test how this "randint" thing worked
 # and everytime i used it it kept say a word was not defined but i tried all period and im stil having trouble
