@@ -49,17 +49,45 @@ def password ():
 
 def Nachos():
     print("here are your Nachos")
-    print("would you like another")
+    print("would you like another Y/N?")
+
+def BBqchips():
+    print("here are your BBq chips")
+    print("would you like another Y/N?")
+
+def  PlainChips():
+    print("here are your Plain chips")
+    print("would you like another Y/N?")
+
+def water():
+    print("here is your water")
+    print("would you like another Y/N?")
+
+def Coke():
+    print("here is your coke") 
+    print("would you like another Y/N?")
 
 
 
-vendingMachine = 
-    print("welcome to the vending machine")
-Snacks = (input("please select a snack"))
-if Snacks == B2:
+vendingMachine = str(input("welcome to the vending machine"))
+while vendingMachine != "N":
+ if vendingMachine == "B2":
     print ("You have chosen nachos")
     Nachos()
-#vendingMachine()
+ elif vendingMachine == "G2":
+    print("you have chosen BBQ Chips")
+    BBqchips()
+ elif vendingMachine == "B7":
+    print("you have chosen plain chips")
+    PlainChips()
+ elif vendingMachine == "G7":
+    print("you have chosen water")
+    water()
+ elif vendingMachine == "B3":
+    print("you have chosen Coke")
+    Coke()
+ else:
+    print("function not avaiable")
 
 
 # import random
