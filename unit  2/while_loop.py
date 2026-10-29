@@ -47,60 +47,70 @@ def password ():
 
 #password()
 
-def Nachos():
-    print("here are your Nachos")
-    print("would you like another Y/N?")
+# def Nachos():
+#     print("here are your Nachos")
+#     print("would you like another Y/N?")
 
-def BBqchips():
-    print("here are your BBq chips")
-    print("would you like another Y/N?")
+# def BBqchips():
+#     print("here are your BBq chips")
+#     print("would you like another Y/N?")
 
-def  PlainChips():
-    print("here are your Plain chips")
-    print("would you like another Y/N?")
+# def  PlainChips():
+#     print("here are your Plain chips")
+#     print("would you like another Y/N?")
 
-def water():
-    print("here is your water")
-    print("would you like another Y/N?")
+# def water():
+#     print("here is your water")
+#     print("would you like another Y/N?")
 
-def Coke():
-    print("here is your coke") 
-    print("would you like another Y/N?")
-
-
-
-vendingMachine = str(input("welcome to the vending machine"))
-while vendingMachine != "N":
- if vendingMachine == "B2":
-    print ("You have chosen nachos")
-    Nachos()
- elif vendingMachine == "G2":
-    print("you have chosen BBQ Chips")
-    BBqchips()
- elif vendingMachine == "B7":
-    print("you have chosen plain chips")
-    PlainChips()
- elif vendingMachine == "G7":
-    print("you have chosen water")
-    water()
- elif vendingMachine == "B3":
-    print("you have chosen Coke")
-    Coke()
- else:
-    print("function not avaiable")
+# def Coke():
+#     print("here is your coke") 
+#     print("would you like another Y/N?")
 
 
-# import random
-# selection = input("would you like to roll or quit r/q")
-# r = 1
-# q = 2
-# if selection == 1:
-#      print(random.randint(1, 7))
-# elif selection == 2:
-#     print("you have quit the game")
-# else:
-#     print("not defined")
 
+# vendingMachine = str(input("welcome to the vending machine"))
+# while vendingMachine != "N":
+#  if vendingMachine == "B2":
+#     print ("You have chosen nachos")
+#     Nachos()
+#  elif vendingMachine == "G2":
+#     print("you have chosen BBQ Chips")
+#     BBqchips()
+#  elif vendingMachine == "B7":
+#     print("you have chosen plain chips")
+#     PlainChips()
+#  elif vendingMachine == "G7":
+#     print("you have chosen water")
+#     water()
+#  elif vendingMachine == "B3":
+#     print("you have chosen Coke")
+#     Coke()
+#  else:
+#     print("function not avaiable")
+
+def dicerolling():
+    winningNumber = 7
+    points = 0
+    print("wlecome to the dice game would you like ro roll or quit r?q")
+    userselection = input()
+    while userselection != "q":
+        if userselection == 7:
+            print("you win")
+            score+= 10
+            print("your cirrent score is" + str(userselection))
+            print ("select R to roll or Q to quit")
+            userselection = input()
+        else:
+            print ("you rolled a:" + str(userselection))
+            print("you lose")
+            score -5
+            print("your current score" + str(score))
+            userselection = input()
+            
+
+
+dicerolling()
 
 # def play():
 #     choice = 1
