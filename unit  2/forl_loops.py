@@ -45,10 +45,37 @@ Calculation = [10, 15, 78, 98, 69, 95]
 for oldNum in Calculation:
     newNum = oldNum * 3
     print("old number" + str(oldNum))
-    print("old number" + str(newNum))
+    print("New number" + str(newNum))
     if newNum < 120:
         print("This number is less than 120")
     elif  newNum > 120:
          print("This number is good")
-    
-     
+
+
+
+
+#list are collection types for storing multiple peices of data 
+#key elements and purposes for lists:
+#list are organis=zed and structured 
+#list can be manipulated and modified - mutable(means changable)
+#list items are accessable and usbale
+#when we want access an item in a list we use the indexing system every item 
+#in a list is numberd.
+# a list index always starts at (0)
+
+
+inventory =  [ "sword", "sheild","healing potion", "armor"]
+print (inventory [0]) # indicated in going to first posistion in the list 
+
+#when you want to add something to our list, we use the append() method
+
+inventory.append("knife")
+inventory.append ("warhammer")
+inventory.remove("healing potion")
+inventory.insert(4, "healing potion")
+
+print(inventory)
+
+
+
+
