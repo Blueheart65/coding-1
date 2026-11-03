@@ -92,7 +92,7 @@ def password ():
 def dicerolling():
     winningNumber = 7
     points = 0
-    print("wlecome to the dice game would you like ro roll or quit r?q")
+    print("welcome to the dice game would you like ro roll or quit r?q")
     userselection = input()
     while userselection != "q":
         if userselection == 7:
